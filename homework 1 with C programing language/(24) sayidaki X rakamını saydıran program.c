@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-	int n,X,c=0;
+	int c=0,n,X;
+//	long n,X,c=0;
 	printf("bir sayidaki kac tane X rakamini bulduran program\n");
 	printf("lutfen bir sayi giriniz\n");
 	scanf("%d",&n);
@@ -16,5 +17,5 @@ int main(){
 		}
 	}
 	printf("girdiginiz sayida %d tane %d rakami vardir",c,X);
-	return 0;
+	return 0;	
 }

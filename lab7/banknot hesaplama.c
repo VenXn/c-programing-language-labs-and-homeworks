@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 /*Klavyeden girilen bir para miktarýný en az banknot kullanarak oluþturmak
 istediðimizde içinde kaç tane 100, 50, 20 ve 10’luk olduðunu bulan programý C
 dili ile yazýnýz. Not: Klavyeden girilen para miktarý 10’un katlarý olmalýdýr.*/
