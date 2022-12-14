@@ -17,7 +17,7 @@ int main(){
 			printf("%d sayisi bir asal sayidir\n",n);
 		}
 		else{
-			printf("%d sayisi bir asal sayi degildir\n",n);
+		//	printf("%d sayisi bir asal sayi degildir\n",n);
 		}
 	}
 	return 0;
