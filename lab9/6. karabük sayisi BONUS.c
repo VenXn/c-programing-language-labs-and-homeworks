@@ -8,6 +8,7 @@ int main(){
 	n/=10;
 	if(n==0){
 		printf("girdiginiz %d sayisi bir karabuk sayisidir",t);
+		return 0;
 	}
 	for(;n>0;n/=10){
 		x=n%10;

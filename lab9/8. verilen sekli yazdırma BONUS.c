@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-	int satir,bosluk,a;
-	for(bosluk=4,satir=1;satir<=4;bosluk--,satir++){
+	int satir,bosluk,a,b;
+	scanf("%d",&b);
+	for(bosluk=4,satir=1;satir<=b;bosluk--,satir++){
 		for(a=satir;a>0;a--){
 			printf("*");
 		}
