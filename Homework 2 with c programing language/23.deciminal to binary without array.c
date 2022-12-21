@@ -5,7 +5,7 @@ int main(){
 	int toplam = 0;
 	int mod=0;
 	scanf("%d",&n);
-	while( n!= 0 ){
+	while( n!= 0 ){        
 		mod = n%2;
 		n = n/2;
 		toplam += mod*x;

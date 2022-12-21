@@ -18,6 +18,7 @@ int main(){
 		}
 		a=x;
 	}
+	printf("\n");
 	printf("girdiginiz %d sayisi bir karabuk sayisidir",t);
 	return 0;
 }

@@ -14,6 +14,6 @@ int main(){
 			sum+=us/fac;
 	}
 	result = 1+x+sum;
-	printf(" sonuc :%f",result);
+	printf(" sonuc :%.2f",result);
 	return 0;
 }
