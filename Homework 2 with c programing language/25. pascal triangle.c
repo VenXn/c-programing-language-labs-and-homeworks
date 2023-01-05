@@ -8,9 +8,9 @@ int main() {
          printf("  ");
          ++count;
       }
-      while (k != 2 * i - 1) {
+      while (k != 2 * i - 1) {           //n!/ (( n-r)!.r !)
          if (count <= satir - 1) {
-            printf("%d ", i + k);
+            printf("%d ", i + k - 1);
             ++count;
          } else {
             ++count1;

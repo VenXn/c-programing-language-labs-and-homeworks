@@ -12,7 +12,7 @@ int main(){
         a[i] = a[size-i-1];
         a[size-i-1] = temp;
     }
-    for(i=0; i<=size; i++){
+    for(i=0; i<size; i++){
         printf("%d\n", a[i]);
     }
 	return 0;
